@@ -28,3 +28,15 @@ void *maximum(void *arg) {
     printf("The maximum value is %d\n", max);
     pthread_exit(NULL);
 }
+
+// Menghitung nilai minimum
+void *minimum(void *arg) {
+    min = arr[0];
+    for(i=1; i<n; i++)
+        if(min > arr[i])
+            min = arr[i];
+  
+    printf("The minimum value is %d\n", min);
+    pthread_exit(NULL);
+}
+
