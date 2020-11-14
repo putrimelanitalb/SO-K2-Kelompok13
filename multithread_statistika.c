@@ -7,3 +7,14 @@ void *average(void *arg) {
     printf("The average value is %.0lf\n", avg);
     pthread_exit(NULL);
 }
+
+// Menghitung nilai maksimum
+void *maximum(void *arg) {
+    max = arr[0];
+    for(i=1; i<n; i++)
+        if(max < arr[i])
+            max = arr[i];
+  
+    printf("The maximum value is %d\n", max);
+    pthread_exit(NULL);
+}
