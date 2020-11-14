@@ -39,3 +39,26 @@ void *maximum(void *arg) {
     printf("The maximum value is %d\n", max);
     pthread_exit(NULL);
 }
+
+int main(){
+    //input banyaknya angka (N)
+    printf("Masukkan N : ");
+    scanf("%d", &n);
+    
+    //Memasukkan angka ke dalam array arr[]
+    for(i=0; i<n; i++)
+        scanf("%d", &arr[i]);
+    
+   pthread_t t1, t2, t3;
+    
+   pthread_create(&t1, NULL, average, NULL);
+   pthread_join(t1, NULL);
+    
+   pthread_create(&t2, NULL, minimum, NULL);
+   pthread_join(t2, NULL);
+    
+   pthread_create(&t3, NULL, maximum, NULL);
+   pthread_join(t3, NULL);
+    
+   return 0;
+}
