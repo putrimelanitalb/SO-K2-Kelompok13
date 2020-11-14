@@ -1,3 +1,13 @@
+#include <stdio.h>
+#include <pthread.h>
+
+int arr[100];
+int sum = 0;
+int n, i;
+
+double avg;
+int min, max;
+
 // Menghitung nilai rata-rata
 void *average(void *arg) {
     for(i=0; i<n; i++)
