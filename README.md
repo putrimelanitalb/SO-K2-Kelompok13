@@ -12,6 +12,10 @@
 | G64180103	| Denny Lindawati Sinurat |
 | G64189001	| Emilia Syafitri |
 
+### **Link Google Slides**  
+
+[K2-13 Program Multithread: Statistika](https://ipb.link/so-k2-kelompok13)
+
 ## Soal 4.21
 
 Write a multithreaded program that calculates various statistical values for a list of numbers. This program will be passed a series of numbers on the command line and will then create three separate worker threads. One thread will determine the average of the numbers, the second will determine the maximum value, and the third will determine the minimum value. For example, suppose your program is passed the integers  
