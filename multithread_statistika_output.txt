@@ -1,0 +1,15 @@
+Masukkan N : 7                                                                                                           
+90                                                                                                                       
+81                                                                                                                       
+78                                                                                                                       
+95                                                                                                                       
+79                                                                                                                       
+72                                                                                                                       
+85                                                                                                                       
+The average value is 82                                                                                                  
+The minimum value is 72                                                                                                  
+The maximum value is 95                                                                                                  
+                                                                                                                         
+                                                                                                                         
+...Program finished with exit code 0                                                                                     
+Press ENTER to exit console.
